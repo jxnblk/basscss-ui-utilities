@@ -1,0 +1,8 @@
+{
+  "name": "basscss-ui-utilities",
+  "version": "0.0.1",
+  "description": "UI utility styles for Basscss",
+  "style": "index.css",
+  "author": "Brent Jackson",
+  "license": "MIT"
+}
