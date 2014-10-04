@@ -16,6 +16,10 @@
 .no-border-bottom:not(:focus) { border-bottom-color: transparent }
 .no-border-right:not(:focus)  { border-right-color: transparent }
 
+.shift-left-2 {
+  margin-left: -2px;
+}
+
 /* Remove white space around inline-block elements */
 .group {}
 .group-item {}
@@ -78,6 +82,23 @@
   border-radius: var(--border-radius);
 }
 
+.field-dark {
+  color: white;
+  background-color: var(--darken-3);
+  border: 1px solid var(--darken-1);
+  border-radius: var(--border-radius);
+}
+
+.field-dark::placeholder {
+  color: rgba(#fff,.75);
+}
+
+.field-dark:focus {
+  outline: 0;
+  border: 1px solid rgba(#fff,.5);
+}
+
+
 .button-nav-light {}
 
 .button-nav-light:hover {
@@ -110,9 +131,14 @@
 
 .overflow-y-scroll {}
 
+@media (max-width: 40em) {
+  .xs-left-0 { left: 0 }
+}
+
 @media (--breakpoint-md) {
   .md-fixed { position: fixed }
   .md-static { position: static }
+
 }
 
 .disclosure-group .disclosure-show { display: none }
