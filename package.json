@@ -4,5 +4,13 @@
   "description": "UI utility styles for Basscss",
   "style": "index.css",
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/basscss-ui-utilities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-ui-utilities/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-ui-utilities"
 }
