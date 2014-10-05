@@ -5,16 +5,11 @@
 @import "./lib/button-sizes";
 @import "./lib/groups";
 @import "./lib/disclosure-states";
-@import "./lib/borders";
 
 :root {
   --space-1: .5rem;
   --space-2: 1rem;
   --space-3: 2rem;
   --space-4: 4rem;
-
-  --border-radius: 3px;
 }
-
-
 
