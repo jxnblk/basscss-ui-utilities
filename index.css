@@ -1,10 +1,8 @@
-/*
-    Basscss UI Utilities
-*/
+/* Basscss UI Utilities */
 
-@import "./lib/button-sizes";
-@import "./lib/groups";
-@import "./lib/disclosure-states";
+@import "basscss-ui-utility-button-sizes";
+@import "basscss-ui-utility-groups";
+@import "basscss-ui-utility-disclosure-states";
 
 :root {
   --space-1: .5rem;

@@ -12,5 +12,10 @@
   "bugs": {
     "url": "https://github.com/jxnblk/basscss-ui-utilities/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-ui-utilities"
+  "homepage": "https://github.com/jxnblk/basscss-ui-utilities",
+  "dependencies": {
+    "basscss-ui-utility-button-sizes": "0.0.1",
+    "basscss-ui-utility-disclosure-states": "0.0.1",
+    "basscss-ui-utility-groups": "0.0.1"
+  }
 }
